@@ -1,0 +1,14 @@
+{% extends "base" %}
+
+
+{% block title %}
+  <title>Index</title>
+{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+  <h1>Welcome to the website</h1>
+  <p>Please take a moment to appreciate the code for this project.</p>
+{% endblock %}

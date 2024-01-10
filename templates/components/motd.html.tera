@@ -1,0 +1,6 @@
+<div>
+    <code>
+        <h3>The Message of the Day is:</h3>
+        <p>{{ motd }}</p>
+    </code>
+</div>

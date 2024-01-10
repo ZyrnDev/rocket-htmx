@@ -1,0 +1,23 @@
+{% extends "base" %}
+
+
+{% block title %}
+  <title>Index</title>
+{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+  <div>
+    <h1>Hello, {{name}}!</h1>
+    <ul>
+      {% for item in items %}
+        <li>{{item}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <button hx-get="/motd" hx-target="#motd" class="inline-block p-2 m-1 bg-violet-700 text-white rounded-lg">Get Messsage of the Day</button>
+  <div id="motd"></div>
+{% endblock %}
